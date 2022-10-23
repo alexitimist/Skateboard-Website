@@ -1,0 +1,432 @@
+
+body{
+    overflow:hidden;
+    width:100%;
+    background-color:whitesmoke;
+    margin:0;
+    overflow-y:scroll;
+    caret-color:transparent;
+    user-select:none;
+}
+
+.header{
+    width:100%;
+    height:15%;
+    position:fixed;
+    top:0;
+    width:100%;
+    background-color:whitesmoke;
+    float:left;
+    font-family:fantasy;
+    z-index:5;
+
+}
+
+#image{
+    margin: 1%;
+    margin-left: 20%;
+    padding:0%;
+    padding-top:2vh; 
+    float:left;   
+}
+
+a{
+    text-decoration:none;
+}
+.header a{
+    padding:2vh;
+    color:gray;
+    font-size:1.5vw;
+    float:right;
+    margin-top:2%;
+    transition:0.6s;
+    
+}
+.header a:hover
+{
+    color:tomato;
+    padding-top:1.5vh;
+}
+.links{
+    margin-right:30vw;
+}
+.content{
+    padding-top:8%;
+    background-color:#333;
+    width:100%;
+    z-index:1;
+}
+.contentImage img{
+opacity:0.45;
+}
+.contentImage{
+    position:relative;
+    text-align:center;
+    background-color: black;
+}
+.contentImage .firstBannerText {
+    position:absolute;  
+    top:45%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    background-color:rgba(51, 51, 51, 0.14);
+    color:white;
+    border-radius:60px;
+}
+.contentImage .firstHeader{
+    font-weight:700;
+    font-family:'Roboto', sans-serif;
+}
+.contentImage .firstDescription{
+    font-weight:400;
+    font-size:2.5vw;  
+}
+.firstBannerText a{
+    padding:3%;
+    color:white;
+    font-size:1.5vw;
+    background-color:tomato;
+    border: 2px solid black;
+    font-weight:600;
+    transform:translate(0%,10%);
+    transition:0.6s;
+}
+.firstBannerText a:hover{
+    background-color:white;
+    color:tomato;
+}
+.about{
+    text-align:center;
+    color:tomato;
+    border-top:3px solid black;
+    padding-bottom:3%;
+}
+h1{
+    font-size:3vw;
+    font-family: 'Roboto', sans-serif;
+}
+.about p{
+    font-size:1.5vw;
+    max-width:50vw;
+    text-align:center;
+    margin:0 auto;
+    font-family: 'Roboto', sans-serif;
+    color:white;
+}
+.form{
+    border-top:3px solid tomato;
+    background-color: white;
+    text-align:center;
+    float:left;
+    width:100%;
+    overflow-y:hidden;
+    border-bottom:1 px solid tomato;
+}
+h2{
+    font-size:2vw;
+    font-family: 'Roboto', sans-serif;
+    color:white;
+}
+label{
+color:tomato;
+font-size:1.7vw;
+font-weight:700;
+letter-spacing: 0.1vw;
+font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+.left{
+    text-align: center;
+    width:40%;
+    margin-left:8%;
+    box-shadow: 0 70px 60px 2px rgba(0, 0, 0, 0.73);
+    background-color:#333;
+    padding-top:1vh;
+    border-right:3px solid tomato;
+    float:left;
+    padding-bottom: 100%;
+    margin-bottom: -100%;
+}
+.leftForm{
+    border-bottom:3px solid tomato;
+}
+.left p{
+    color:gray;
+    max-width:75%;
+    text-align: center;
+    transform:translate(15%,0%);
+    font-size:0.8vw;
+}
+input{
+border-radius:5px;
+height:4vh;
+width:15vw;
+text-align:center;
+background-color:gray;
+}
+input[type=submit]{
+    margin-left:2.5vh;
+}
+input[type=submit]:hover{
+    background-color:tomato;
+    color:white;
+    transition:0.5s;
+}
+input::placeholder{
+    color:white;
+}
+.right{
+    float:left;
+    text-align:center;
+    width:40%;
+    background-color:#333;
+    box-shadow: 0 70px 60px rgba(0, 0, 0, 0.73);
+    color:white;
+    padding-bottom: 100%;
+    margin-bottom: -100%;
+}
+.rightDescription{
+    padding-bottom:5vh;
+}
+.rightTrick{
+    border-top:solid tomato 2px;
+}
+button:hover{
+    background-color:white;
+    cursor:pointer;
+    transition:0.3s;
+}
+button{
+    padding:1.5%;
+    padding-left:5%;
+    padding-right:5%;
+    font-weight:600;
+    background-color:tomato;
+    border:none;
+    font-size:0.7vw;
+}
+
+b{
+    color:tomato;
+}
+.right h2{
+    color:tomato;
+}
+.right p{
+    max-width:20vw;
+    text-align:left;
+    margin: 0 auto;
+    font-size:1vw;
+    letter-spacing:0.02vw;
+    line-height:1.5vw;
+}
+.fa{
+    color:tomato;
+}
+.leftImage img{
+    width:100%;
+    margin-top:10px;
+}
+
+.rightTrick{
+    
+    background-color:#333;
+}
+
+.footer{
+    background-color:#333;
+    width:100%;
+    height:7vh;
+    padding-top:3vh;
+    text-align: center;
+    color:tomato;
+    text-decoration:none;
+    font-size:1vw;
+    font-weight:600;
+    border-top: black solid 5px;
+    z-index:30;
+}
+.footer a{
+color:white;
+}
+
+.contentTricks{
+    padding-top:15vh;
+    background-color:#333;
+}
+.introTricks{
+    width:100%;
+    text-align:center;
+    border-top:solid black 3px;
+    padding-bottom:3vh;
+
+}
+.introTricks p{
+    font-size:1.5vw;
+    font-weight:600;
+    font-family: 'Roboto', sans-serif;
+    max-width:70vw;
+    text-align:center;
+    color:white;
+    margin:0 auto;
+
+}
+
+.learnPart{
+    border-top:tomato 8px dotted;
+   background-color:#333;
+   width:80%;
+   margin-left:10%;
+   height:120vh;
+}
+.tricksScreen{
+    float:left;
+    width:40%;
+    text-align:center;
+    margin-left:5%;
+    margin-top:5%;
+    background-color:rgb(37, 37, 37);
+    border-radius:50px;
+    border:black solid 10px;
+}
+.tricksScreen img{
+    width:100%;
+
+}
+.tricksList{
+    float:left;
+    text-align:center;
+    width:45%;
+    margin-left:5%;
+    margin-top:10%;
+}
+
+.trickButtons{
+    width:100%;
+    
+    margin-bottom:50px;
+}
+
+.tricksList button{
+    padding:1.5%;
+    padding-left:4%;
+    padding-right:4%;
+    margin-right:0.7vw;
+}
+
+.other{
+    text-align: center;
+    background-color: #333;
+    width:100%;
+    color:tomato;
+    padding-bottom:50px;
+    float:left;
+    margin-right:-15%;
+    margin-left:-15%;
+    padding-left:15%;
+    padding-right:15%;
+    
+}
+.other a{
+    text-decoration:none;
+    padding:0.5%;
+    padding-left:2%;
+    padding-right:2%;
+    margin-right:0.7vw;
+    background-color:tomato;
+    font-weight:600;
+    color:black;
+
+}
+.other a:hover{
+    background-color:white;
+    transition:0.4s;
+}
+.tricksList p{
+    color: white;
+    font-weight:550;
+    text-align:left;
+    white-space:pre;
+}
+.tricksList .pHeader{
+    font-size:1.5vw;
+}
+.dashed{
+    border:0;
+    border-top:3px dotted gray;
+    background-color: #333;
+}
+.text{
+    column-count:2;
+    line-height:0.8vw;
+}
+
+.contentDictionary{
+    background-color:#333;
+   
+}
+
+.dictionary{
+    margin:3% 0% 0% 10%;
+    table-layout:fixed;
+}
+.dictionary th{
+color:tomato;
+font-size:2vw;
+}
+
+.dictionary th:nth-child(2){
+text-align:left;
+}
+
+.dictionary td{
+    color:white;
+    font-size:1vw;
+}
+.dictionary td:nth-child(2n-1){
+    color:tomato;
+    font-weight:600;
+    width:15%;
+    padding-top:1vh;
+    text-align: center;
+}
+
+.dictionary td:nth-child(2n){
+    padding-top:1vh;
+    text-align:left;
+}
+em{
+    color:tomato;
+}
+
+.meanings{
+    width:70%;
+   margin:0 auto;
+   float: left;
+   background-color: #333;
+   padding-bottom: 100%;
+   margin-bottom: -100%;
+}
+
+.meme{
+    width:30%;
+    float:left;
+    background-color: #333;
+    padding-bottom: 100%;
+    margin-bottom: -100%;
+}
+.meme img{
+    margin-top:25%;
+    margin-left:25%;
+    width:50%;
+    height:50%;
+    border:tomato solid 3px;
+    box-shadow: 10px 10px 100px 10px rgba(0, 0, 0, 0.73);
+}
+.pages{
+    float:left;
+    overflow-y:hidden;
+    width:100%;
+    padding-bottom:3vh;
+}
+

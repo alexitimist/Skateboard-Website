@@ -1,0 +1,110 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Learn Skateboard Tricks</title>
+    <meta name="description" content="TIN Project Site">
+    <meta name="credentials" content="Mikołaj Hołdakowski s23739">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Roboto&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="script.js" defer></script>
+</head>
+
+<body>
+
+    <div class="header">
+        <a id="image" href=skateboard.html><img src="pjatk-logo.png" style="max-width:200px;width:20vh"></a href>
+        <div class=links>
+            <a href="skateboard.html">Home</a>
+            <a href="dictionary.html">Dictionary</a> 
+            <a href="tricks.html">Tricks</a>
+        </div>
+    </div>
+    <div class="content">
+        <div class="contentImage">
+            <img src="SkateboardBanner-slimC.jpeg" width="100%">
+            <div class="firstBannerText">
+                <div class="firstHeader">
+                    <h1>Welcome!</h1>
+                </div>
+                <div class="firstDescription">Welcome to my website project!
+                </div>
+                </br></br>
+                <a href=tricks.html>Tricks</a>
+                <a href="dictionary.html">Dictionary</a>
+            </div>
+        </div>
+
+        <div class="about">
+            <h1>
+                What is going on here?
+            </h1>
+            <p>This website's purpose is to teach you how to do skateboard tricks by breaking down movements that are
+                being performed during a trick.</p>
+        </div>
+        <div class="form">
+            <div class="left">
+                <div class="leftForm">
+                    <h2>Sign up for getting tips into your e-mail!</h1>
+                        <form action="/register.php" method="get">
+                            <label for="name">Name:</label></br>
+                            <i class="fa fa-user"></i></i> <input type="text" id="name" name="name"
+                                placeholder="Enter Your Name">
+                            </br></br>
+                            </i><label for="email">Email:</label></br>
+                            <i class="fa fa-envelope"></i> <input type="text" id="email" name="email"
+                                placeholder="Enter Your Email">
+                            </br></br></br>
+                            <input type="submit" value="Sign in" disabled=true;>
+                        </form>
+                        <p>We are not responsible for any data leaks, accidental spam or any other harm that may cause
+                            passing your email for us.</p>
+                </div>
+                <div class="leftImage">
+                    <img src="pexels-photo-1527242.jpeg" style="max-width:37vw;">
+                </div>
+            </div>
+
+        
+        <div class="right">
+            <div class="rightDescription">
+                <article class="artcl">
+                <h2>Consistency is Important</h2>
+                <p>Honestly consistency is the <b>most important</b> aspect of acquiring new skill. </br>If your goal is
+                    to
+                    achieve greater things with skateboarding or actually any other skill, then you should focus on
+                    being consistent. </br></br>
+                    There are many known techniques that help develop good habits and consistency in doing things,
+                    so if you need help with developing consistency, contact me and, I will try to help you with it.
+                    </br></br>There is also a very cool youtube channel that you should check out with content about
+                    <b>productivity</b>!
+                </p>
+                </br>
+                <p><b id="myEmail" style="display:none;">s23739@pjwstk.edu.pl</b></p>
+            </article>
+                <button type="button" onclick="myCredentials()">Get My E-Mail!</button>
+                <button type="button" onclick="window.open('https://www.youtube.com/channel/UCSLeoz5odIGS2GdlbHbCAUg');">Youtube Channel</button>
+        
+            </div>
+            <div class="rightTrick">
+                <h1>Trick of the Day</h1>
+                <h2>Ollie!</h2>
+                <a id="trickpng"><img src="ollie.png" style="max-width:20vw;"></a></br>
+                <button type="button" onclick="seeTrick('Ollie')">See Explanation</button>
+            </div>
+        </div>
+    </div>
+</div>
+    </div>
+    <div style="clear:both"></div>
+    <div class="footer">
+        <!--localstorage to display number of visitors-->
+        Author: Mikołaj Hołdakowski</br>
+        E-mail: <a href="mailto:s23739@pjwstk.edu.pl">s23739@pjwstk.edu.pl</a>
+    </div>
+</body>
+
+</html>
